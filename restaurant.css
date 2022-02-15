@@ -1,0 +1,52 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: white;
+  }
+  .menu {
+    float: right;
+    width: 70%;
+    box-shadow: 100px grey;
+  }
+  .menu h1 {
+    text-align: center;
+  }
+  .item-body {
+    margin-top: 25px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .tables {
+    float: left;
+    width: 27%;
+    padding: 0 10px;
+  }
+  
+  .tables h1 {
+    text-align: center;
+  }
+  .table-body {
+    width: 90%;
+    margin-top: 25px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+.table-details {
+    display: none;
+}
+
+.in input{
+  width: 40px;
+}
+
+td{
+  column-width: auto;
+  padding: 10px;
+}
+
+th{
+  column-width: auto;
+  padding: 10px;
+}
